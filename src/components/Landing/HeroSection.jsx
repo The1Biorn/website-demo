@@ -1,6 +1,9 @@
 function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-300 px-4">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-300 px-4"
+    >
       <div className="text-center max-w-2xl">
         <h2 className="text-5xl font-extrabold text-gray-800 mb-6">
           Welcome to Our Site
